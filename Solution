@@ -1,0 +1,61 @@
+         JavaScript comparison between Arrays and Objects
+
+// Arrays example
+
+var cars = ["Ferrary", "Maserati", "BMW"]; // enter
+undefined
+cars // enter
+["Ferrary", "Maserati", "BMW"]
+cars[1]; // enter
+"Maserati"
+// to add new date we use push metod
+cars.push("MERCEDES") // enter
+4
+cars // enter
+["Ferrary", "Maserati", "BMW", "MERCEDES"]
+
+// or another metod to add new date
+cars[1] = "MERCEDES" // enter
+"MERCEDES"
+
+// to resign value in Array
+cars[1] // enter
+"Maserati"
+cars[1] = "AUDI" // enter
+"AUDI"
+cars // enter
+["Ferrary", "AUDI", "BMW", "MERCEDES"]
+
+
+
+// Objects example
+
+var cars = {
+	name: "AUDI",
+	model: "A7"
+} // enter
+undefined
+cars // enter
+Objects {name: "AUDI", model: "A7"}
+cars["name"] // enter
+"AUDI"
+cars.name // enter
+"AUDI"
+
+// to add in objects new date we use .(dot) function
+cars.age = 5 // enter
+5
+cars // enter
+Objects {name: "AUDI", model: "A7", age: 5}
+
+// or another metod to add new date
+cars["age"] = 5; // enter
+5
+
+// to resign value in Objects
+
+cars.model = "A5" // enter
+"A5"
+cars // enter
+Objects {name: "AUDI", model: "A5", age: 5}
+
